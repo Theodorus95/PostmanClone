@@ -7,5 +7,6 @@
 - To stop webserver: **_symfony server:stop_**
 - Enable annotations for controller routing: **_composer require annotations_**
 - Show current routes: **_symfony console debug:router_**
+- Create controller: **_php bin/console make:controller HomeController_**
 
 

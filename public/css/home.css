@@ -1,0 +1,93 @@
+/*.content {*/
+/*    display: flex;*/
+/*    flex-direction: column;*/
+/*    align-items: center;*/
+/*}*/
+
+body {
+    font-family: monospace, "Arial";
+}
+
+.content {
+    display: grid;
+    grid-template-rows: 1fr 4fr 2fr 1fr;
+    justify-content: center;
+    text-align: center;
+}
+
+.login_form {
+
+}
+
+#username {
+    padding: 10px 0px;
+}
+
+#password{
+    padding: 10px 0px;
+}
+
+#loginBtnDiv {
+    padding-top: 10px;
+}
+
+.btnClass button {
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 10px 20px;
+    min-width: 100px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+    transition: background-color 0.5s ease;
+}
+
+
+
+/*.welcome_block {*/
+/*    grid-row: 2 / 3;*/
+/*    display: grid;*/
+
+/*}*/
+/*.loginClass {*/
+/*    justify-self: center;*/
+/*}*/
+
+/*#welcome {*/
+/*    display: flex;*/
+/*    justify-content: center;*/
+/*    align-items: center;*/
+/*}*/
+
+/*div#welcome {*/
+/*    display: flex;*/
+/*    flex-direction: column;*/
+/*    justify-content: center;*/
+/*    align-items: center;*/
+/*    text-align: center;*/
+/*}*/
+/*.welcome_block {*/
+/*    justify-self: center;*/
+/*}*/
+
+/*#welcome2 {*/
+/*    display: flex;*/
+/*}*/
+/*.welcome_block {*/
+/*    text-align: center;*/
+/*}*/
+/*.content > * {*/
+/*    justify-self: center;*/
+/*    align-self: center;*/
+/*}*/
+/*#welcome h1 {*/
+/*    display: flex;*/
+/*    justify-content: center;*/
+/*    text-align: center;*/
+/*    !*align-self: center;*!*/
+/*}*/
+
+/*div#welcome {*/
+/*    display: flex;*/
+/*}*/

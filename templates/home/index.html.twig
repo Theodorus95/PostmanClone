@@ -1,0 +1,61 @@
+{% extends 'base.html.twig' %}
+
+
+{% block stylesheets %}
+<link rel="stylesheet" href="{{ asset('css/home.css') }}">
+{% endblock %}
+
+{% block javascripts %}
+<script src="{{ asset('js/home.ts') }} defer"></script>
+{% endblock %}
+
+{% block title %}Hello HomeController!{% endblock %}
+
+{% block body %}
+    <div class="content">
+        <div class="header"></div>
+        <div id="welcome" class="welcome_block">
+
+            <h1 class="loginClass">Postbird</h1>
+            <img src="{{ asset('img/logo_firebird.png') }}" height="200">
+
+        </div>
+        <div class="login_section">
+            <form method="post" class="login_form">
+                <div id="username">
+                    <label for="inputUsername">Username: </label>
+                    <input type="text" name="username" id="inputUsername" class="loginInput">
+                </div>
+                <div id="password">
+                    <label for="inputPassword">Password: </label>
+                    <input type="password" name="password" id="inputPassword" class="loginInput">
+                </div>
+                <div id="loginBtnDiv" class="btnClass">
+                    <button id="loginBtn" class="loginInput" type="submit">Sign in</button>
+                </div>
+            </form>
+        </div>
+        <div class="register_section">
+            <h3>No account?</h3>
+            <div id="registerBtnDiv" class="btnClass">
+                <button id="registerBtn" class="registerInput" type="submit">Register</button>
+            </div>
+        </div>
+        <div class="footer"></div>
+    </div>
+
+{#<style>#}
+{#    .example-wrapper { margin: 1em auto; max-width: 800px; width: 95%; font: 18px/1.5 sans-serif; }#}
+{#    .example-wrapper code { background: #F5F5F5; padding: 2px 6px; }#}
+{#</style>#}
+
+{#<div class="example-wrapper">#}
+{#    <h1>Hello {{ controller_name }}! ✅</h1>#}
+
+{#    This friendly message is coming from:#}
+{#    <ul>#}
+{#        <li>Your controller at <code><a href="{{ '/Users/jeroen/Documents/Programming/PostmanClone/src/Controller/HomeController.php'|file_link(0) }}">src/Controller/HomeController.php</a></code></li>#}
+{#        <li>Your template at <code><a href="{{ '/Users/jeroen/Documents/Programming/PostmanClone/templates/home/index.html.twig'|file_link(0) }}">templates/home/index.html.twig</a></code></li>#}
+{#    </ul>#}
+{#</div>#}
+{% endblock %}
