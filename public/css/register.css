@@ -1,0 +1,43 @@
+body {
+    font-family: monospace, "Arial";
+}
+
+body {
+    display: grid;
+    grid-template: 1fr 5fr / 1fr 4fr 1fr;
+}
+
+#regDiv {
+    grid-area: 2 / 2 / 3 / 3;
+    /*flex-direction: column;*/
+    /*justify-content: center;*/
+    /*align-items: center;*/
+    /*width: 600px;*/
+
+    padding: 20px;
+    border-radius: 3px;
+    border-width: 2px;
+    border-color: white;
+    border-style: double;
+}
+
+#regForm {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#registerBtn {
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 10px 20px;
+    min-width: 100px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+    transition: background-color 0.5s ease;
+}
+
+
+

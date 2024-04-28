@@ -43,6 +43,11 @@ body {
     transition: background-color 0.5s ease;
 }
 
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
 
 
 /*.welcome_block {*/

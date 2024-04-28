@@ -1,4 +1,5 @@
 - To connect to mysql: _mysql -u root_
+- MySQL: username: root, password: Phoenix<>PostLight!
 
 - To check symfony version: **_bin/console --version_**
 - To check symfony health: **_symfony check:requirements_**
@@ -8,5 +9,10 @@
 - Enable annotations for controller routing: **_composer require annotations_**
 - Show current routes: **_symfony console debug:router_**
 - Create controller: **_php bin/console make:controller HomeController_**
+
+= Database (doctrine)
+- doctrine commands list: **_symfony console list doctrine_**
+- 
+
 
 
